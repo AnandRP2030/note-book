@@ -1,4 +1,3 @@
-# Introduction
+# Note Taking App
 
-## testing changess.
-test
+Welcome to our note book
