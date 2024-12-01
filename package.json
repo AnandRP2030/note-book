@@ -1,12 +1,10 @@
 {
   "devDependencies": {
-    "gh-pages": "^6.2.0",
     "honkit": "^6.0.2"
   },
   "scripts": {
     "serve": "honkit serve",
-    "build": "honkit build",
-    "deploy": "gh-pages -d docs"
+    "build": "honkit build"
   },
   "name": "note-book",
   "description": "Mern and DSA note book for now, gradually working to improve on further tech",
@@ -174,9 +172,9 @@
     "slick": "^1.12.2",
     "sprintf-js": "^1.0.3",
     "statuses": "^1.5.0",
-    "string_decoder": "^0.10.31",
     "string-template": "^0.2.1",
     "string-width": "^4.2.3",
+    "string_decoder": "^0.10.31",
     "strip-ansi": "^6.0.1",
     "supports-preserve-symlinks-flag": "^1.0.0",
     "tiny-lr": "^1.1.1",

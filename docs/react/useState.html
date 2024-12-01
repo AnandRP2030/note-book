@@ -1,0 +1,577 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <title>useState hook · HonKit</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 6.0.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/@honkit/honkit-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="useEffect.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../basic-html/">
+            
+                <a href="../basic-html/">
+            
+                    
+                    HTML Introduction
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../basic-html/01-introduction.html">
+            
+                <a href="../basic-html/01-introduction.html">
+            
+                    
+                    HTML
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../basic-html/02-tags.html">
+            
+                <a href="../basic-html/02-tags.html">
+            
+                    
+                    HTML Tags
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1" data-path="../basic-html/03-text-formatting-tags.html">
+            
+                <a href="../basic-html/03-text-formatting-tags.html">
+            
+                    
+                    HTML Text Formatting Tags
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.2" data-path="../basic-html/04-sementic-tags.html">
+            
+                <a href="../basic-html/04-sementic-tags.html">
+            
+                    
+                    HTML Sementic Tags
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="01-react-intro.md">
+            
+                <span>
+            
+                    
+                    React
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="02-react-router-dom.md">
+            
+                <span>
+            
+                    
+                    react-router-dom
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="03-props.md">
+            
+                <span>
+            
+                    
+                    Props
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    hooks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.4" data-path="useState.html">
+            
+                <a href="useState.html">
+            
+                    
+                    useState hook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="useEffect.html">
+            
+                <a href="useEffect.html">
+            
+                    
+                    useEffect hook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="component-life-cycle.html">
+            
+                <a href="component-life-cycle.html">
+            
+                    
+                    Components Life cycle
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="useRef.html">
+            
+                <a href="useRef.html">
+            
+                    
+                    useRef hook
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../credits.html">
+            
+                <a href="../credits.html">
+            
+                    
+                    Credits
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >useState hook</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="usestate-hook-in-react">useState Hook in React</h2>
+<h3 id="what-are-hooks">What Are Hooks?</h3>
+<p>Hooks are a new addition in React 16.8 that allow you to use state and other React features without writing a class. Hooks are functions that let you "hook into" React state and lifecycle features from function components. They enable you to use state and other React features in functional components, which were previously only possible in class components.</p>
+<h3 id="how-do-hooks-help">How Do Hooks Help?</h3>
+<p>Hooks simplify the logic and reusability of components by enabling you to:</p>
+<ul>
+<li>Use state and lifecycle methods in functional components.</li>
+<li>Break down complex components into smaller, more manageable pieces.</li>
+<li>Share stateful logic between components without using higher-order components (HOCs) or render props.</li>
+</ul>
+<h3 id="what-is-the-usestate-hook">What is the useState Hook?</h3>
+<p>The <code>useState</code> hook is a function that lets you add state to functional components. When you call <code>useState</code>, it returns an array with two elements:</p>
+<ol>
+<li>The current state value.</li>
+<li>A function that lets you update this state value.</li>
+</ol>
+<h3 id="how-to-use-the-usestate-hook">How to Use the useState Hook?</h3>
+<p>Here's a basic example of how to use the <code>useState</code> hook:</p>
+<pre><code class="lang-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span>, { useState } <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">Counter</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-comment">// Declare a state variable named "count" and set its initial value to 0</span>
+  <span class="hljs-keyword">const</span> [count, setCount] = <span class="hljs-title function_">useState</span>(<span class="hljs-number">0</span>);
+
+  <span class="hljs-comment">// Function to handle the button click and update the state</span>
+  <span class="hljs-keyword">const</span> <span class="hljs-title function_">incrementCount</span> = (<span class="hljs-params"></span>) =&gt; {
+    <span class="hljs-title function_">setCount</span>(count + <span class="hljs-number">1</span>);
+  };
+
+  <span class="hljs-keyword">return</span> (
+    <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>You clicked {count} times<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{incrementCount}</span>&gt;</span>Click me<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+  );
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-title class_">Counter</span>;
+</code></pre>
+<h3 id="what-arguments-does-usestate-accept">What Arguments Does useState Accept?</h3>
+<p>The <code>useState</code> hook accepts a single argument, which is the initial state. This initial state can be a number, string, array, object, or any other type of data. The initial state value is only used during the first render.</p>
+<h3 id="what-is-state">What is State?</h3>
+<p>State is a built-in React object that allows components to keep track of changes. Each component can have its own state, which holds data that may change over time. State is important because it determines how the component behaves and renders.</p>
+<h3 id="why-is-state-important">Why is State Important?</h3>
+<p>State is crucial in React because it allows components to create dynamic and interactive user interfaces. When the state changes, React automatically re-renders the component to reflect the new state. This makes it easy to manage and update the UI based on user interactions or other events.</p>
+<h3 id="is-usestate-synchronous-or-asynchronous">Is useState Synchronous or Asynchronous?</h3>
+<p>The <code>useState</code> hook updates the state asynchronously. When you call the state update function (like <code>setCount</code> in the example above), React schedules the update, but the state value won't change immediately. Instead, React will re-render the component with the updated state in the next render cycle. This behavior ensures that multiple state updates are batched together for better performance.</p>
+<h3 id="detailed-example-with-usestate">Detailed Example with useState</h3>
+<p>Let's dive into a more detailed example where we manage multiple pieces of state:</p>
+<pre><code class="lang-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span>, { useState } <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">UserProfile</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-comment">// Declare multiple state variables</span>
+  <span class="hljs-keyword">const</span> [name, setName] = <span class="hljs-title function_">useState</span>(<span class="hljs-string">'John Doe'</span>);
+  <span class="hljs-keyword">const</span> [age, setAge] = <span class="hljs-title function_">useState</span>(<span class="hljs-number">25</span>);
+  <span class="hljs-keyword">const</span> [email, setEmail] = <span class="hljs-title function_">useState</span>(<span class="hljs-string">'john.doe@example.com'</span>);
+
+  <span class="hljs-comment">// Function to handle name change</span>
+  <span class="hljs-keyword">const</span> <span class="hljs-title function_">handleNameChange</span> = (<span class="hljs-params">event</span>) =&gt; {
+    <span class="hljs-title function_">setName</span>(event.<span class="hljs-property">target</span>.<span class="hljs-property">value</span>);
+  };
+
+  <span class="hljs-comment">// Function to handle age change</span>
+  <span class="hljs-keyword">const</span> <span class="hljs-title function_">handleAgeChange</span> = (<span class="hljs-params">event</span>) =&gt; {
+    <span class="hljs-title function_">setAge</span>(<span class="hljs-title class_">Number</span>(event.<span class="hljs-property">target</span>.<span class="hljs-property">value</span>));
+  };
+
+  <span class="hljs-comment">// Function to handle email change</span>
+  <span class="hljs-keyword">const</span> <span class="hljs-title function_">handleEmailChange</span> = (<span class="hljs-params">event</span>) =&gt; {
+    <span class="hljs-title function_">setEmail</span>(event.<span class="hljs-property">target</span>.<span class="hljs-property">value</span>);
+  };
+
+  <span class="hljs-keyword">return</span> (
+    <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>User Profile<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">label</span>&gt;</span>
+        Name:
+        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">{name}</span> <span class="hljs-attr">onChange</span>=<span class="hljs-string">{handleNameChange}</span> /&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">br</span> /&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">label</span>&gt;</span>
+        Age:
+        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"number"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">{age}</span> <span class="hljs-attr">onChange</span>=<span class="hljs-string">{handleAgeChange}</span> /&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">br</span> /&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">label</span>&gt;</span>
+        Email:
+        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"email"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">{email}</span> <span class="hljs-attr">onChange</span>=<span class="hljs-string">{handleEmailChange}</span> /&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">br</span> /&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+        Name: {name} <span class="hljs-tag">&lt;<span class="hljs-name">br</span> /&gt;</span>
+        Age: {age} <span class="hljs-tag">&lt;<span class="hljs-name">br</span> /&gt;</span>
+        Email: {email}
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+  );
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-title class_">UserProfile</span>;
+</code></pre>
+<p>In this example:</p>
+<ul>
+<li>We declare three state variables: <code>name</code>, <code>age</code>, and <code>email</code>.</li>
+<li>Each state variable has a corresponding update function: <code>setName</code>, <code>setAge</code>, and <code>setEmail</code>.</li>
+<li>We use the state variables to control the input values and display the updated information dynamically.</li>
+</ul>
+<h3 id="conclusion">Conclusion</h3>
+<p>The <code>useState</code> hook is a powerful feature in React that allows you to manage state in functional components. It helps you create dynamic and interactive user interfaces by updating the component's state and re-rendering it when necessary. By understanding and using the <code>useState</code> hook effectively, you can build more efficient and maintainable React applications.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: hooks">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="useEffect.html" class="navigation navigation-next " aria-label="Next page: useEffect hook">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"useState hook","level":"1.3.4","depth":2,"next":{"title":"useEffect hook","level":"1.3.5","depth":2,"path":"docs/react/useEffect.md","ref":"docs/react/useEffect.md","articles":[]},"previous":{"title":"hooks","level":"1.3.3","depth":2,"path":"docs/react/README.md","ref":"docs/react/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"docs/react/useState.md","mtime":"2024-12-01T17:47:30.538Z","type":"markdown"},"gitbook":{"version":"6.0.2","time":"2024-12-01T19:07:50.653Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/@honkit/honkit-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

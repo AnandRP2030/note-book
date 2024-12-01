@@ -1,0 +1,589 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <title>useEffect hook · HonKit</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 6.0.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/@honkit/honkit-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="component-life-cycle.html" />
+    
+    
+    <link rel="prev" href="useState.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../basic-html/">
+            
+                <a href="../basic-html/">
+            
+                    
+                    HTML Introduction
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../basic-html/01-introduction.html">
+            
+                <a href="../basic-html/01-introduction.html">
+            
+                    
+                    HTML
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../basic-html/02-tags.html">
+            
+                <a href="../basic-html/02-tags.html">
+            
+                    
+                    HTML Tags
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1" data-path="../basic-html/03-text-formatting-tags.html">
+            
+                <a href="../basic-html/03-text-formatting-tags.html">
+            
+                    
+                    HTML Text Formatting Tags
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.2" data-path="../basic-html/04-sementic-tags.html">
+            
+                <a href="../basic-html/04-sementic-tags.html">
+            
+                    
+                    HTML Sementic Tags
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="01-react-intro.md">
+            
+                <span>
+            
+                    
+                    React
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="02-react-router-dom.md">
+            
+                <span>
+            
+                    
+                    react-router-dom
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="03-props.md">
+            
+                <span>
+            
+                    
+                    Props
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    hooks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="useState.html">
+            
+                <a href="useState.html">
+            
+                    
+                    useState hook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.5" data-path="useEffect.html">
+            
+                <a href="useEffect.html">
+            
+                    
+                    useEffect hook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="component-life-cycle.html">
+            
+                <a href="component-life-cycle.html">
+            
+                    
+                    Components Life cycle
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="useRef.html">
+            
+                <a href="useRef.html">
+            
+                    
+                    useRef hook
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../credits.html">
+            
+                <a href="../credits.html">
+            
+                    
+                    Credits
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >useEffect hook</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="📋-understanding-the-useeffect-hook-in-react">📋 Understanding the useEffect Hook in React</h2>
+<h3 id="what-is-the-useeffect-hook">What is the useEffect Hook?</h3>
+<p>The <code>useEffect</code> hook lets you perform side effects in function components. Side effects can include data fetching, subscriptions, or manually changing the DOM. <code>useEffect</code> is a powerful hook that enables you to run some code after the component renders and when certain conditions change.</p>
+<h3 id="how-does-useeffect-help">How Does useEffect Help?</h3>
+<ul>
+<li><strong>Data Fetching</strong>: You can use <code>useEffect</code> to fetch data from an API after the component mounts.</li>
+<li><strong>Subscriptions</strong>: You can set up subscriptions (e.g., to a WebSocket or a real-time database) and clean them up when the component unmounts.</li>
+<li><strong>DOM Manipulation</strong>: You can directly manipulate the DOM after rendering.</li>
+<li><strong>Cleanup</strong>: You can clean up resources (e.g., timers, subscriptions) when the component unmounts or before the effect runs again.</li>
+</ul>
+<h3 id="how-to-use-the-useeffect-hook">How to Use the useEffect Hook?</h3>
+<p>Here's a basic example of how to use the <code>useEffect</code> hook:</p>
+<pre><code class="lang-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span>, { useState, useEffect } <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">Timer</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">const</span> [count, setCount] = <span class="hljs-title function_">useState</span>(<span class="hljs-number">0</span>);
+
+  <span class="hljs-title function_">useEffect</span>(<span class="hljs-function">() =&gt;</span> {
+    <span class="hljs-keyword">const</span> timer = <span class="hljs-built_in">setInterval</span>(<span class="hljs-function">() =&gt;</span> {
+      <span class="hljs-title function_">setCount</span>(<span class="hljs-function"><span class="hljs-params">prevCount</span> =&gt;</span> prevCount + <span class="hljs-number">1</span>);
+    }, <span class="hljs-number">1000</span>);
+
+    <span class="hljs-comment">// Cleanup the interval on component unmount</span>
+    <span class="hljs-keyword">return</span> <span class="hljs-function">() =&gt;</span> <span class="hljs-built_in">clearInterval</span>(timer);
+  }, []); <span class="hljs-comment">// Empty dependency array means this effect runs only once after the initial render</span>
+
+  <span class="hljs-keyword">return</span> (
+    <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Timer: {count} seconds<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+  );
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-title class_">Timer</span>;
+</code></pre>
+<h3 id="what-arguments-does-useeffect-accept">What Arguments Does useEffect Accept?</h3>
+<p>The <code>useEffect</code> hook accepts two arguments:</p>
+<ol>
+<li><strong>Effect Function</strong>: A function that contains the side-effect logic.</li>
+<li><strong>Dependency Array</strong>: An optional array of dependencies that the effect depends on. If any dependency changes, the effect runs again.</li>
+</ol>
+<h3 id="detailed-explanation-of-useeffect">Detailed Explanation of useEffect</h3>
+<h4 id="effect-function">Effect Function</h4>
+<p>The effect function contains the side-effect logic. It can return a cleanup function, which React will run when the component unmounts or before the effect runs again.</p>
+<h4 id="dependency-array">Dependency Array</h4>
+<p>The dependency array specifies when the effect should re-run. There are three scenarios:</p>
+<ul>
+<li><strong>No Dependency Array</strong>: The effect runs after every render.</li>
+<li><strong>Empty Dependency Array</strong>: The effect runs only once after the initial render.</li>
+<li><strong>Dependencies Specified</strong>: The effect runs only when the specified dependencies change.</li>
+</ul>
+<h3 id="example-fetching-data-with-useeffect">Example: Fetching Data with useEffect</h3>
+<p>Here's an example of using <code>useEffect</code> to fetch data from an API:</p>
+<pre><code class="lang-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span>, { useState, useEffect } <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">DataFetcher</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">const</span> [data, setData] = <span class="hljs-title function_">useState</span>(<span class="hljs-literal">null</span>);
+  <span class="hljs-keyword">const</span> [loading, setLoading] = <span class="hljs-title function_">useState</span>(<span class="hljs-literal">true</span>);
+
+  <span class="hljs-title function_">useEffect</span>(<span class="hljs-function">() =&gt;</span> {
+    <span class="hljs-title function_">fetch</span>(<span class="hljs-string">'https://jsonplaceholder.typicode.com/posts/1'</span>)
+      .<span class="hljs-title function_">then</span>(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> response.<span class="hljs-title function_">json</span>())
+      .<span class="hljs-title function_">then</span>(<span class="hljs-function"><span class="hljs-params">data</span> =&gt;</span> {
+        <span class="hljs-title function_">setData</span>(data);
+        <span class="hljs-title function_">setLoading</span>(<span class="hljs-literal">false</span>);
+      });
+
+    <span class="hljs-comment">// No cleanup needed for this effect</span>
+  }, []); <span class="hljs-comment">// Effect runs only once after initial render</span>
+
+  <span class="hljs-keyword">if</span> (loading) {
+    <span class="hljs-keyword">return</span> <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Loading...<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span></span>;
+  }
+
+  <span class="hljs-keyword">return</span> (
+    <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>{data.title}<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>{data.body}<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+  );
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-title class_">DataFetcher</span>;
+</code></pre>
+<h3 id="what-is-state">What is State?</h3>
+<p>State in React is an object that determines how that component renders and behaves. It is managed within the component and can be updated over time, usually as a result of user actions or other events.</p>
+<h3 id="why-is-state-important">Why is State Important?</h3>
+<p>State is crucial because it enables components to create dynamic and interactive user interfaces. When the state changes, React re-renders the component, ensuring the UI reflects the latest state.</p>
+<h3 id="is-useeffect-synchronous-or-asynchronous">Is useEffect Synchronous or Asynchronous?</h3>
+<p>The <code>useEffect</code> hook itself is synchronous, but you can perform asynchronous operations within the effect function. For instance, data fetching with <code>fetch</code> or <code>axios</code> can be done inside <code>useEffect</code>. It's essential to handle the async operations correctly to avoid potential issues.</p>
+<h3 id="example-cleanup-with-useeffect">Example: Cleanup with useEffect</h3>
+<p>Here's an example demonstrating how to clean up side effects:</p>
+<pre><code class="lang-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span>, { useState, useEffect } <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">WindowSize</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">const</span> [width, setWidth] = <span class="hljs-title function_">useState</span>(<span class="hljs-variable language_">window</span>.<span class="hljs-property">innerWidth</span>);
+
+  <span class="hljs-title function_">useEffect</span>(<span class="hljs-function">() =&gt;</span> {
+    <span class="hljs-keyword">const</span> <span class="hljs-title function_">handleResize</span> = (<span class="hljs-params"></span>) =&gt; <span class="hljs-title function_">setWidth</span>(<span class="hljs-variable language_">window</span>.<span class="hljs-property">innerWidth</span>);
+    <span class="hljs-variable language_">window</span>.<span class="hljs-title function_">addEventListener</span>(<span class="hljs-string">'resize'</span>, handleResize);
+
+    <span class="hljs-comment">// Cleanup the event listener on component unmount</span>
+    <span class="hljs-keyword">return</span> <span class="hljs-function">() =&gt;</span> <span class="hljs-variable language_">window</span>.<span class="hljs-title function_">removeEventListener</span>(<span class="hljs-string">'resize'</span>, handleResize);
+  }, []); <span class="hljs-comment">// Effect runs only once after initial render</span>
+
+  <span class="hljs-keyword">return</span> (
+    <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Window width: {width}px<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+  );
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-title class_">WindowSize</span>;
+</code></pre>
+<p>In this example:</p>
+<ul>
+<li>The <code>useEffect</code> hook adds an event listener to the <code>resize</code> event when the component mounts.</li>
+<li>The effect also includes a cleanup function that removes the event listener when the component unmounts.</li>
+</ul>
+<h3 id="conclusion">Conclusion</h3>
+<p>The <code>useEffect</code> hook is a versatile tool in React that allows you to perform side effects in function components. By understanding and using the <code>useEffect</code> hook effectively, you can manage side effects, handle data fetching, and clean up resources, ultimately building more efficient and interactive React applications.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="useState.html" class="navigation navigation-prev " aria-label="Previous page: useState hook">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="component-life-cycle.html" class="navigation navigation-next " aria-label="Next page: Components Life cycle">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"useEffect hook","level":"1.3.5","depth":2,"next":{"title":"Components Life cycle","level":"1.3.6","depth":2,"path":"docs/react/component-life-cycle.md","ref":"docs/react/component-life-cycle.md","articles":[]},"previous":{"title":"useState hook","level":"1.3.4","depth":2,"path":"docs/react/useState.md","ref":"docs/react/useState.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"docs/react/useEffect.md","mtime":"2024-12-01T17:53:18.239Z","type":"markdown"},"gitbook":{"version":"6.0.2","time":"2024-12-01T19:07:50.653Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/@honkit/honkit-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
