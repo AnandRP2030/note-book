@@ -4,4 +4,3 @@ node_modules
 _book
 .DS_Store
 yarn.lock
-package-lock.json
