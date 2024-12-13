@@ -9,6 +9,7 @@
 
 * [React](docs/react/react-intro.md)
   * [components](docs/react/components.md)
+  * [JSX](docs/react/jsx.md)
   * [react-router-dom](docs/react/react-router-dom.md)
   * [Props](docs/react/props.md)
   * [hooks](docs/react/README.md)
