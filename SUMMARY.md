@@ -12,4 +12,11 @@
   * [useRef hook](docs/react/useRef.md)
   * [useContext hook](docs/react/useContext.md)
 
+* [Typescript](docs/typescript/README.md)
+  * [Typescript Intro](docs/typescript/typescript-intro.md)
+  * [Typescript Types](docs/typescript/typescript-types.md)
+  * [Typescript Interfaces](docs/typescript/typescript-interfaces.md)
+  * [Typescript Generics](docs/typescript/typescript-generics.md)
+  * [Typescript Classes](docs/typescript/typescript-classes.md)
+
 * [Credits](docs/credits.md)
